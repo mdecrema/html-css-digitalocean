@@ -2,6 +2,11 @@ body {
     font-family: 'Roboto', sans-serif
 }
 
+.wrapper {
+    max-width: 900px;
+    margin: auto;
+}
+
 .header_top {
     height: 70px;
 }
@@ -23,9 +28,35 @@ body {
 .menu_left li {
     display: inline-block;
     list-style: none; 
+    padding: 5px 15px;
 }
 
 .menu_right li {
     display: inline-block;
     list-style: none; 
+    padding: 5px 15px;
+}
+
+.logo {
+    height: 30px;
+}
+
+
+/* JUMBOTRON ------------------ */
+
+/* BOX ACCOUNT */
+
+.account {
+    height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+form ul li {
+    list-style: none;
+    border: 1px solid lightgrey;
+}
+
+.input_style {
+    border: none;
 }
