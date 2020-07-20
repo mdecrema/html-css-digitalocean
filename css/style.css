@@ -7,9 +7,6 @@ body {
     margin: auto;
 }
 
-.header_top {
-    height: 70px;
-}
 
 .blue {
     background-color: blue;
@@ -18,31 +15,78 @@ body {
 
 .red {
     background-color: red;
-    height: 100%;
+    height: 50px;
+    border: 1px solid #000;
+}
+
+.green {
+    background-color: greenyellow;
+    height: 150px;
+    border: 1px solid #000;
+}
+
+.grey {
+    height: 150px;
+    border: 1px solid #000;
+}
+
+.blank {
+    height: 150px;
+    border: 1px solid #000;
+}
+
+.txt_cntr {
+    text-align: center;
 }
 
 .inline_bl {
     display: inline-block;
 }
 
+.menu_left {
+    padding: 0 0 0 140px;
+}
+
+.menu_right {
+    float: right;
+}
+
 .menu_left li {
     display: inline-block;
     list-style: none; 
-    padding: 5px 15px;
+    line-height: 40px;
+    padding: 0 8px;
 }
 
 .menu_right li {
     display: inline-block;
     list-style: none; 
-    padding: 5px 15px;
+    line-height: 40px;
+    padding: 0 8px;
 }
 
-.logo {
+
+.logo_digitalocean {
     height: 30px;
+    vertical-align: middle;
+    margin-top: 2px;
+}
+
+h1 {
+    font-size: 14px;
 }
 
 
 /* JUMBOTRON ------------------ */
+.header_top {
+    height: 40px;
+}
+
+.jumbotron_bg {
+    width: 100vw;
+    height: 350px;
+    background-color: antiquewhite;
+}
 
 /* BOX ACCOUNT */
 
@@ -59,4 +103,12 @@ form ul li {
 
 .input_style {
     border: none;
+}
+
+/* DIV PARTNERS */ 
+
+.partners {
+    width: 100vw;   
+    height: 200px;
+    background-color: lightgray;
 }
