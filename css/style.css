@@ -91,6 +91,7 @@ h1 {
     width: 100vw;
     min-height: 350px;
     background-color: antiquewhite;
+    padding: 20px;
 }
 
 .jumbotron_bg::after {
@@ -120,6 +121,13 @@ form ul li {
 
 .partners {
     width: 100vw;   
-    height: 200px;
+    min-height: 200px;
     background-color: lightgray;
+    padding: 20px;
+}
+
+.partners::after {
+    content: "";
+    display: block;
+    clear: both;
 }
