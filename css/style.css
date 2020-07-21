@@ -147,6 +147,12 @@ form ul li {
     background-color: #F3F5F9;
 }
 
+.section_2::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .pitc_1 {
     margin: auto;
     vertical-align: middle;
@@ -173,4 +179,26 @@ form ul li {
 .h_250 {
     height: 300px;
     border: 1px solid #000;
+}
+
+.pallini {
+    height: 20px;
+    width: 55px;
+    margin: auto;
+}
+
+.pallino_blu {
+    width: 10px;
+    height: 10px;
+    background-color: #0069FF;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+.pallino_bianco {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #0069FF;
+    border-radius: 100%;
+    display: inline-block;
 }
