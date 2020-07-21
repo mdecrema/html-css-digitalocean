@@ -300,13 +300,7 @@ form ul li {
     width: 100vw;
     min-height: 450px;
     background-color: #010E28;
-    color: #fff;
-}
-
-.pink {
-    height: 400px;
-    
-    border: 1px solid #000;
+    color: #818DA7;
 }
 
 .copyright {
@@ -324,7 +318,7 @@ form ul li {
 }
 
 .link_utili {
-    padding: 60px 0;
+    padding: 60px 0 0;
 }
 
 .link_utili li {
