@@ -114,7 +114,7 @@ body {
 /* NAV BAR -------------------- */
 .fixed {
     width: 100vw;
-    height: 40px;
+    height: 50px;
     position: fixed;
     z-index: 1;
     background-color: #fff;
@@ -131,22 +131,22 @@ body {
 .menu_left li {
     display: inline-block;
     list-style: none; 
-    line-height: 40px;
-    padding: 0 8px;
+    line-height: 50px;
+    padding: 0 7px;
 }
 
 .menu_right li {
     display: inline-block;
     list-style: none; 
-    line-height: 40px;
-    padding: 0 8px;
+    line-height: 50px;
+    padding: 0 7px;
 }
 
 
 .logo_digitalocean {
-    height: 23px;
+    height: 24px;
     vertical-align: middle;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .sottotitolo {
@@ -162,6 +162,16 @@ body {
     font-size: 25px;
 }
 
+.arrow_down {
+    margin-left: 3px;
+}
+
+#signUp {
+    padding: 5px 10px;
+    border: 1px solid #0069FF;
+    border-radius: 5px;
+}
+
 
 /* JUMBOTRON ------------------ */
 
@@ -171,7 +181,7 @@ body {
 
 .jumbotron_bg {
     width: 100vw;
-    min-height: 350px;
+    min-height: 360px;
     background-color: dodgerblue;
     padding: 20px;
 }
@@ -184,7 +194,7 @@ body {
 
 .pad_jumbo {
     padding: 0 20px; 
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 
@@ -278,17 +288,33 @@ form ul li {
 
 /* SECTION_1 */
 
+.grey_list {
+    padding: 0;
+}
+
 .grey_list li {
     list-style: none;
-    border-left: 1px solid #748099;
+    border-left: 1.5px solid #748099;
     padding: 8px 7px;
 }
+
+.grey_list a {
+    color: #748099;
+    text-decoration: none;
+}
+
+.grey_list li:hover {
+    color: #000;
+    text-decoration: none;
+    border-left: 1.5px solid #0069FF;
+}
+
 
 /* SECTION_2 */
 
 .section_2 {
     width: 100vw;
-    min-height: 500px;
+    min-height: 550px;
     background-color: #F3F5F9;
     padding: 20px 0;
 }
@@ -351,8 +377,18 @@ form ul li {
 
 .section_3 {
     width: 100vw;
-    min-height: 300px;
+    min-height: 350px;
     padding: 20px 0;
+}
+
+.features_box p {
+    min-height: 80px;
+}
+
+.features_box::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 /* SECTION_4 */
@@ -360,8 +396,16 @@ form ul li {
 .section_4 {
     width: 100vw;
     min-height: 300px;
-    background-color: darkblue;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(39,46,255,1) 0%, rgba(27,29,191,1) 65%);
+    /*background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(31,37,217,1) 0%, rgba(2,5,176,1) 65%);*/
+    /*background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(45,52,238,1) 0%, rgba(21,24,208,1) 65%);*/
     padding: 20px 0;
+}
+
+.section_4::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 /* TABELLA */
@@ -387,7 +431,7 @@ form ul li {
 
 .section_5 {
     width: 100vw;
-    min-height: 500px;
+    min-height: 550px;
     background-color: #F3F5F9;
     padding: 20px 0;
 }
@@ -411,7 +455,8 @@ form ul li {
 .section_6 {
     width: 100vw;
     min-height: 200px;
-    background-color: darkblue;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(39,46,255,1) 0%, rgba(27,29,191,1) 65%);
+    /*background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(52,52,235,1) 0%, rgba(2,5,172,1) 65%);*/
     padding: 20px 0;
 }
 
@@ -467,4 +512,13 @@ form ul li {
     list-style: none;
     font-size: 12px;
     padding: 5px 0;
+}
+
+
+/* MEDIA QUERY ----------------- */
+
+@media screen and (max-width: 768px) {
+    .grey {
+        padding: 
+    }
 }
