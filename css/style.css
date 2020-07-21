@@ -246,3 +246,41 @@ form ul li {
 .pad_10 {
     padding: 0 10px;
 }
+
+/* SECTION_5 */
+
+.section_5 {
+    width: 100vw;
+    min-height: 500px;
+    background-color: #F3F5F9;
+    padding: 20px 0;
+}
+
+.section_5::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* SECTION_6 */
+
+.section_6 {
+    width: 100vw;
+    min-height: 200px;
+    background-color: darkblue;
+}
+
+.section_6::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.create_acc {
+    padding: 10px;
+    color: #0069FF;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: auto;
+    font-weight: bold;
+}
