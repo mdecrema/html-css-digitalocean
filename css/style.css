@@ -85,7 +85,6 @@ body {
 
 .h_300 {
     height: 300px;
-    border: 1px solid #000;
 }
 
 .h_25 {
@@ -291,9 +290,12 @@ form ul li {
     clear: both;
 }
 
-.pitc_1 {
-    margin: auto;
-    vertical-align: middle;
+.schermata_sez_2 {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/schermate/schermata_sez_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .arrow {
@@ -303,14 +305,14 @@ form ul li {
 .arrow_left {
     position: absolute;
     top: 50%;
-    right: 5%;
+    right: 0;
     transform: translate(-50%, -50%);
 }
 
 .arrow_right {
     position: absolute;
     top: 50%;
-    left: 20%;
+    left: 15%;
     transform: translate(-50%, -50%);
 }
 
