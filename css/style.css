@@ -43,6 +43,10 @@ body {
     display: inline-block;
 }
 
+.pos_rel {
+    position: relative;
+}
+
 .menu_left {
     padding: 0 0 0 140px;
 }
@@ -130,4 +134,43 @@ form ul li {
     content: "";
     display: block;
     clear: both;
+}
+
+/* SEZIONE_1 */
+
+
+/* SEZIONE_2 */
+
+.section_2 {
+    width: 100vw;
+    min-height: 500px;
+    background-color: #F3F5F9;
+}
+
+.pitc_1 {
+    margin: auto;
+    vertical-align: middle;
+}
+
+.arrow {
+    font-size: 24px;
+}
+
+.arrow_left {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(-50%, -50%);
+}
+
+.arrow_right {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.h_250 {
+    height: 300px;
+    border: 1px solid #000;
 }
