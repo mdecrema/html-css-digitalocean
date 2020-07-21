@@ -67,6 +67,10 @@ body {
     position: relative;
 }
 
+.f_size_8 {
+    font-size: 8px;
+}
+
 .menu_left {
     padding: 0 0 0 140px;
 }
@@ -127,7 +131,7 @@ h1 {
 /* BOX ACCOUNT */
 
 .account {
-    height: 200px;
+    height: 250px;
     background-color: #fff;
     border-radius: 10px;
     padding: 15px;
@@ -137,9 +141,50 @@ h1 {
     padding: 0;
 }
 
+.create_acc_form ul li {
+    border: none;
+}
+
+.input_style {
+    width: 100%;
+    height: 25px;
+    margin-bottom: 5px;
+    font-size: 10px;
+    border: 1px solid #fff; 
+    box-shadow: 1px 1px lightgray;
+    border-radius: 2px;
+}
+
+#registrati {
+    width: 100%;
+    height: 25px;
+    margin-bottom: 5px;
+    border: 1px solid #0069FF;
+    border-radius: 2px;
+    background-color: #0069FF;
+    font-size: 10px;
+    color: #fff;
+}
+
+#registratiGoogle {
+    width: 100%;
+    height: 25px;
+    border: 1px solid #fff; 
+    box-shadow: 1px 1px lightgray;
+    border-radius: 2px;
+    background-color: #fff;
+    font-size: 10px;
+    color: #000;
+}
+
+.google_icon {
+    position: absolute;
+    left: 0;
+}
+
 form ul li {
     list-style: none;
-    border: 1px solid lightgrey;
+    border: 1px solid lightgray;
 }
 
 .input_style {
