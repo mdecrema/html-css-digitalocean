@@ -71,6 +71,14 @@ body {
     font-size: 8px;
 }
 
+.f_size_12 {
+    font-size: 12px;
+}
+
+.l_height {
+    line-height: 25px;
+}
+
 .menu_left {
     padding: 0 0 0 140px;
 }
@@ -95,9 +103,9 @@ body {
 
 
 .logo_digitalocean {
-    height: 30px;
+    height: 23px;
     vertical-align: middle;
-    margin-top: 2px;
+    margin-top: 5px;
 }
 
 h1 {
@@ -117,7 +125,7 @@ h1 {
 
 .jumbotron_bg {
     width: 100vw;
-    min-height: 350px;
+    min-height: 300px;
     background-color: dodgerblue;
     padding: 20px;
 }
@@ -128,12 +136,17 @@ h1 {
     clear: both;
 }
 
+.pad_jumbo {
+    padding: 0 20px;    
+}
+
 /* BOX ACCOUNT */
 
 .account {
+    width: 100%;
     height: 250px;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 15px;
 }
 
@@ -179,7 +192,7 @@ h1 {
 
 .google_icon {
     position: absolute;
-    left: 0;
+    left: 5px;
 }
 
 form ul li {
