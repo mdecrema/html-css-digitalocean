@@ -378,6 +378,10 @@ form ul li {
     border-bottom: 1px solid #fff;
 }
 
+.aqua {
+    color: aqua;
+}
+
 
 /* SECTION_5 */
 
@@ -424,6 +428,11 @@ form ul li {
     border-radius: 5px;
     margin: auto;
     font-weight: bold;
+    font-size: 12px;
+}
+
+.pad_bottom_20 {
+    padding: 20px 0 15px 0;
 }
 
 /* FOOTER ------------------------- */
