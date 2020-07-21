@@ -40,7 +40,7 @@ body {
 }
 
 .gr {
-    color: gray;
+    color: #748099;
 }
 
 .light_bl {
@@ -100,6 +100,13 @@ body {
     padding: 30px 0;
 }
 
+.pad_top_30 {
+    padding: 30px 0 10px;
+}
+
+.pad_bottom_30 {
+    padding: 0 0 30px;
+}
 /* /CLASSI GENERICHE ---------- */
 
 
@@ -135,8 +142,11 @@ body {
     margin-top: 5px;
 }
 
-h1 {
+.sottotitolo {
     font-size: 14px;
+    line-height: 25px;
+    font-weight: bold;
+    color: #748099;
 }
 
 .hamburger_icon {
@@ -260,6 +270,11 @@ form ul li {
 
 /* SECTION_1 */
 
+.grey_list li {
+    list-style: none;
+    border-left: 1px solid #748099;
+    padding: 8px 7px;
+}
 
 /* SECTION_2 */
 
