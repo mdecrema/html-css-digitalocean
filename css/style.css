@@ -87,8 +87,9 @@ body {
     height: 300px;
 }
 
-.h_25 {
-    height: 25px;
+.h_30 {
+    height: 30px;
+    line-height: 30px;
 }
 
 .pad_10 {
@@ -111,6 +112,13 @@ body {
 
 
 /* NAV BAR -------------------- */
+.fixed {
+    width: 100vw;
+    height: 40px;
+    position: fixed;
+    z-index: 1;
+    background-color: #fff;
+}
 
 .menu_left {
     padding: 0 0 0 140px;
@@ -163,7 +171,7 @@ body {
 
 .jumbotron_bg {
     width: 100vw;
-    min-height: 300px;
+    min-height: 350px;
     background-color: dodgerblue;
     padding: 20px;
 }
@@ -176,6 +184,7 @@ body {
 
 .pad_jumbo {
     padding: 0 20px; 
+    margin-top: 50px;
 }
 
 
@@ -342,7 +351,7 @@ form ul li {
 
 .section_3 {
     width: 100vw;
-    min-height: 250px;
+    min-height: 300px;
     padding: 20px 0;
 }
 
@@ -383,6 +392,14 @@ form ul li {
     content: "";
     display: block;
     clear: both;
+}
+
+.schermata_sez_5 {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img..)
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* SECTION_6 */
