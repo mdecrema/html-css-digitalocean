@@ -120,6 +120,8 @@ body {
 
 
 /* NAV BAR -------------------- */
+
+
 .fixed {
     width: 100vw;
     height: 50px;
@@ -410,6 +412,7 @@ form ul li {
     display: inline-block;
 }
 
+
 /* SECTION_3 */
 
 .section_3 {
@@ -428,6 +431,7 @@ form ul li {
     clear: both;
 }
 
+
 /* SECTION_4 */
 
 .section_4 {
@@ -444,6 +448,7 @@ form ul li {
     display: block;
     clear: both;
 }
+
 
 /* TABELLA */
 
@@ -470,6 +475,7 @@ form ul li {
 .fl_right {
     float: right;
 }
+
 
 /* SECTION_5 */
 
@@ -506,6 +512,7 @@ form ul li {
     width: 200px;
 }
 
+
 /* SECTION_6 */
 
 .section_6 {
@@ -535,6 +542,7 @@ form ul li {
 .pad_bottom_20 {
     padding: 20px 0 15px 0;
 }
+
 
 /* FOOTER ------------------------- */
 
@@ -571,6 +579,8 @@ form ul li {
     padding: 5px 0;
 }
 
+/* ROBO CHAT E NOTIFICHE */
+
 .notification {
     position: fixed;
     bottom: 30px;
@@ -602,6 +612,8 @@ form ul li {
     border-radius: 5px;
     box-shadow: 2px 2px gray;
 }
+
+
 
 /* MEDIA QUERY ----------------- */
 
