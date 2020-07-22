@@ -560,16 +560,19 @@ form ul li {
 }
 
 .notification {
-    position: absolute;
+    position: fixed;
     bottom: 30px;
     right: 30px;
+    cursor: move;
 }
 
 .notification_txt {
     width: 300px;
     height: 50px;
     padding: 5px 15px;
+    border: 1px solid gray;
     border-radius: 5px;
+    box-shadow: 2px 2px gray;
     color: #010E28;
     background-color: #fff;
     float: left;
@@ -585,6 +588,7 @@ form ul li {
 .shark img {
     height: 50px;
     border-radius: 5px;
+    box-shadow: 2px 2px gray;
 }
 
 /* MEDIA QUERY ----------------- */
@@ -626,15 +630,15 @@ form ul li {
     }
     
     .notification_txt {
-        width: 200px;
-        font-size: 10px;
+        width: 220px;
+        font-size: 12px;
     }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 991px) {
     
      .features_box {
-        margin: 15px 0;
+        margin: 16px 0;
     }
     
     .notification {
@@ -644,7 +648,7 @@ form ul li {
     
     .notification_txt {
         width: 250px;
-        font-size: 14px;
+        font-size: 16px;
     }
 
 }
