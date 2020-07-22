@@ -75,6 +75,10 @@ body {
     font-size: 14px;
 }
 
+.f_size_tabella {
+    font-size: 12px;
+}
+
 .l_height {
     line-height: 25px;
 }
@@ -191,7 +195,9 @@ body {
 .jumbotron_bg {
     width: 100vw;
     min-height: 360px;
-    background-color: dodgerblue;
+    background-image: url(../img/bg_home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 20px;
 }
 
@@ -536,9 +542,37 @@ form ul li {
 
 /* MEDIA QUERY ----------------- */
 
-@media only screen and (min-width: 400px) and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
+    
+    .info_box {
+        margin: 15px 0;
+    }
+    
+    .h_300 {
+        height: 250px;
+    }
+    
+    .features_box {
+        margin: 15px 0;
+    }
+    
+    .f_size_tabella {
+        font-size: 10px;
+    }
+    
     .pad_10 {
         padding: 30px;
     }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+    
+     .features_box {
+        margin: 15px 0;
     }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
 }
