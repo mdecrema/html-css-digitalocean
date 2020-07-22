@@ -316,6 +316,7 @@ form ul li {
 .grey_list a {
     color: #748099;
     text-decoration: none;
+    font-size: 16px;
 }
 
 .grey_list li:hover {
@@ -329,7 +330,7 @@ form ul li {
 
 .section_2 {
     width: 100vw;
-    min-height: 550px;
+    min-height: 580px;
     background-color: #F3F5F9;
     padding: 20px 0;
 }
@@ -397,7 +398,7 @@ form ul li {
 }
 
 .features_box p {
-    min-height: 80px;
+    min-height: 6 0px;
 }
 
 .features_box::after {
@@ -441,6 +442,9 @@ form ul li {
     color: aqua;
 }
 
+.fl_right {
+    float: right;
+}
 
 /* SECTION_5 */
 
@@ -532,8 +536,9 @@ form ul li {
 
 /* MEDIA QUERY ----------------- */
 
-@media screen and (max-width: 768px) {
-    .grey {
-        padding: 
+@media only screen and (min-width: 400px) and (max-width: 800px) {
+    .pad_10 {
+        padding: 30px;
+    }
     }
 }
